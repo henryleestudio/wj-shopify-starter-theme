@@ -1,0 +1,101 @@
+/* TYPEOGRAPHY */
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url("https://use.typekit.net/kzd8rfh.css");
+
+@font-face {
+   src: url("https://use.typekit.net/kzd8rfh.css");
+font-family: "logic-monospace", mono;
+font-weight: 400;
+font-style: normal;
+ }
+ @font-face {
+   src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+  font-family: 'manrope';
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: 800;
+ }
+
+:root { 
+  --font-body-family: mono, sans-serif !important;
+  --font-heading-family: 'manrope', sans-serif !important; 
+} */
+
+/* BODY */
+
+/* background video */
+
+/* .video-container {
+  display: flex;
+  justify-content: center;
+  height: 100%; 
+  width: 100%;
+  position: fixed;
+  object-fit: cover;
+  z-index: -10;
+}
+.hero-vid {
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  height: 100%; 
+  width: 100%;
+} */
+
+/* background image */
+
+/* 
+.pg-bkg {
+  background: url('https://youtu.be/LnoptTyhFsE?si=X978ks-q1raD42iu');
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  display: block !important;
+  background-size: cover;
+  background-position: center;
+} */
+
+.banner:after, .banner__media:after {
+display: none;
+}
+
+/* HEADER */
+
+/* CHANGE LOGO IMG */
+
+/* .header__heading-logo-wrapper img {
+  content: url('https://cdn.shopify.com/s/files/1/0934/2802/3617/files/gift-icon.webp?v=1751037188');
+} */
+
+/* NO LOGO */
+
+/* .header__heading-logo-wrapper {
+  display: none;
+} */
+
+/* FOOTER */
+
+.footer {
+    border-top: .1rem solid rgb(18 18 18 / 0%) !important;
+}
+
+/* PRODUCT PAGE */
+
+.global-media-settings {
+  border: none;
+}
+
+.wj-sizechart-btn span {
+  color: white !important;
+}
+
+.wj-sizechart-btn svg {
+    fill: #ffffff !important;
+}
+
+/* POLICY PAGE */
+
+.shopify-policy__container {
+    max-width: 60%;
+}
