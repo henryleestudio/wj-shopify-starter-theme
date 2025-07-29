@@ -34,6 +34,17 @@ font-style: normal;
   object-fit: cover;
   z-index: -10;
 }
+.video-container::before {
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, .8);
+}
 .hero-vid {
   object-fit: cover;
   display: flex;
@@ -78,6 +89,9 @@ display: none;
 
 .footer {
     border-top: .1rem solid rgb(18 18 18 / 0%) !important;
+}
+.footer {
+    background: transparent;
 }
 
 /* PRODUCT PAGE */
