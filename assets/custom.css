@@ -33,6 +33,9 @@ font-style: normal;
   position: fixed;
   object-fit: cover;
   z-index: -10;
+
+/* VIDEO LAYER BLEND: */
+/* mix-blend-mode: difference; */
 }
 .video-container::before {
     content:"";
