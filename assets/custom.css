@@ -76,6 +76,12 @@ display: none;
 
 /* HEADER */
 
+/* To change the color of the search module background – Add to the customizer */
+
+.search-modal__content {
+/*   background-color: #7F1D18; */
+}
+
 /* CHANGE LOGO IMG */
 
 /* .header__heading-logo-wrapper img {
