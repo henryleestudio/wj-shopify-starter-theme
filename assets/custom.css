@@ -36,7 +36,7 @@ font-style: normal;
 
 /* VIDEO LAYER BLEND: */
 /* mix-blend-mode: difference; */
-}
+/* }
 .video-container::before {
     content:"";
     display: block;
@@ -54,7 +54,7 @@ font-style: normal;
   justify-content: center;
   height: 100%; 
   width: 100%;
-} 
+}  */
 
 /* background image */
 
