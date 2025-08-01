@@ -58,9 +58,9 @@ font-style: normal;
 
 /* background image */
 
-/* 
+
 .pg-bkg {
-  background: url('https://youtu.be/LnoptTyhFsE?si=X978ks-q1raD42iu');
+  background: url('https://cdn.shopify.com/s/files/1/0636/0819/3123/files/pdp-bkg.png?v=1750269042');
   width: 100%;
   height: 100%;
   position: fixed;
@@ -68,7 +68,7 @@ font-style: normal;
   display: block !important;
   background-size: cover;
   background-position: center;
-} */
+}
 
 .banner:after, .banner__media:after {
 display: none;
