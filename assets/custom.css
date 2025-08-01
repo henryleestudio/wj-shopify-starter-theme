@@ -74,6 +74,12 @@ font-style: normal;
 display: none;
 }
 
+/* Product card on home page */
+/* card .media, .card__inner, .product__media.media {
+    border-radius: 20px;
+    border: 8px double #cca19d;
+} */
+
 /* HEADER */
 
 /* To change the color of the search module background – Add to the customizer */
@@ -115,6 +121,11 @@ display: none;
 
 .wj-sizechart-btn svg {
     fill: #ffffff !important;
+}
+
+.product__media.media {
+  border-radius: 20px;
+  border: 8px double #cca19d;
 }
 
 /* POLICY PAGE */
