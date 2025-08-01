@@ -17,7 +17,6 @@
         "image_fmFCrg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Heart_and_Text_Combined_00000.png",
             "image_width": 445,
             "alignment": "center"
           }
