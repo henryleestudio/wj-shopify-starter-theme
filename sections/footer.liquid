@@ -301,8 +301,15 @@
       <div class="footer__copyright caption">
 
       <small class="copyright__content">
-  &copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}. Powered by <a href="https://www.warrenjames.org" target="_blank" style="text-decoration: none; font-weight: 900;">WARREN JAMES, INC.</a>
-</small>
+  &copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}<br>
+    <div class="wj-logo-wrapper">
+    <p>Powered by</p>
+    <a href="https://www.warrenjames.org" target="_blank" style="text-decoration: none; font-weight: 900;"><div class="wj-logo-container">
+      <img class="wj-logo" src="https://cdn.shopify.com/s/files/1/0668/1319/8405/files/warren-james-logo-wht.png?v=1754675798" alt="Warren James Logo">
+      </div>
+    </a>
+    </div>
+     </small>
         
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
