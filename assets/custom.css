@@ -133,3 +133,16 @@ display: none;
 .shopify-policy__container {
     max-width: 60%;
 }
+
+/* FOOTER */
+
+.wj-logo {
+      width: 95px;
+    margin-left: 6px;
+}
+.wj-logo-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
