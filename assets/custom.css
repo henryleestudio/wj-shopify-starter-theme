@@ -132,7 +132,7 @@ display: none;
 
 /* Policy privacy page background overlay color and spacing */
 
-.shopify-policy__container {
+/* .shopify-policy__container {
     max-width: 100%;
     background-color: #121212a1;
     padding-left: 30%;
@@ -142,17 +142,17 @@ display: none;
 
 .shopify-policy__title h1:first-child {
 margin-top: 0px;
-}
+} */
 
 /* Policy privacy page color */
 
-.shopify-policy__title h1 {
+/* .shopify-policy__title h1 {
   color: #fff;
 }
 
 .shopify-policy__body h2, .shopify-policy__body h3, .shopify-policy__body p {
     color: #fff;
-}
+} */
 
 /* FOOTER */
 
