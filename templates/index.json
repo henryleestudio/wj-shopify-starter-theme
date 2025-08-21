@@ -49,11 +49,62 @@
         "show_text_below": false
       }
     },
+    "image_with_text_iAJEph": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_d4cift": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_nHMJYr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_gfewMe": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_d4cift",
+        "text_nHMJYr",
+        "button_gfewMe"
+      ],
+      "custom_css": [
+        ".image-with-text__heading {/* font-family: \"futura-pt-bold\", sans-serif; font-size: 3.25rem; */}",
+        ".image-with-text__text p {/* font-size: 14px; */}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
         ".gradient {background: transparent;}",
-        "/* .grid {justify-content: center;}",
+        " /* .grid {justify-content: center;}",
         " */.title {/* font-family: Amador; */ text-align: center;}",
         ".collection__description {/* font-family: \"trilby\", serif; */ text-align: center;}",
         ".card__heading {/* font-family: \"trilby\", serif; */ font-size: 2.75rem; text-align: center;}",
@@ -89,6 +140,7 @@
   },
   "order": [
     "image_banner",
+    "image_with_text_iAJEph",
     "featured_collection"
   ]
 }
