@@ -102,9 +102,11 @@ display: none;
   display: none;
 } */
 
-/* header image full height */
-/* .banner__content {
-    height: 100vh;
+/* header image full desktop height */
+/* @media screen and (min-width: 750px) {
+  .banner__content {
+    height: 100vh !important;
+  }
 } */
 
 /* FOOTER */
