@@ -88,21 +88,23 @@ display: none;
 /* HEADER */
 
 /* To change the color of the search module background – Add to the customizer */
-
 .search-modal__content {
 /*   background-color: #7F1D18; */
 }
 
 /* CHANGE LOGO IMG */
-
 /* .header__heading-logo-wrapper img {
   content: url('https://cdn.shopify.com/s/files/1/0934/2802/3617/files/gift-icon.webp?v=1751037188');
 } */
 
 /* NO LOGO */
-
 /* .header__heading-logo-wrapper {
   display: none;
+} */
+
+/* header image full height */
+/* .banner__content {
+    height: 100vh;
 } */
 
 /* FOOTER */
