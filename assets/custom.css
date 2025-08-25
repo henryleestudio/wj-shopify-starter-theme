@@ -115,21 +115,33 @@ display: none;
     border-top: .1rem solid rgb(18 18 18 / 0%) !important;
 }
 .footer {
-    background: transparent;
+/*     background: transparent; */
 }
 
+/* collection product background img */
+/* .collection .card__inner {
+    background: url(https://cdn.shopify.com/s/files/1/0668/1319/8405/files/wbn-product-wht-6.png?v=1755744494) !important;
+    background-size: cover !important;
+} */
+
 /* PRODUCT PAGE */
+
+/* product background img on PDP */
+/* .product__media.media {
+    background: url(https://cdn.shopify.com/s/files/1/0668/1319/8405/files/wbn-product-wht-6.png?v=1755744494) !important;
+    background-size: cover !important;
+} */
 
 .global-media-settings {
   border: none;
 }
 
 .wj-sizechart-btn span {
-  color: white !important;
+/*   color: white !important; */
 }
 
 .wj-sizechart-btn svg {
-    fill: #ffffff !important;
+/*     fill: #ffffff !important; */
 }
 
 .product__media.media {
